@@ -5,7 +5,8 @@ Pillow==2.4.0
 PyPDF2==1.21
 bleach==1.4
 dj-database-url==0.3.0
-dj-static==0.0.5
+# https://github.com/kennethreitz/dj-static/issues/16
+-e git://github.com/kennethreitz/dj-static.git#egg=dj_static
 django-toolbelt==0.0.1
 filebrowser-safe==0.3.3
 future==0.9.0

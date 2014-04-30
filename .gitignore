@@ -1,0 +1,10 @@
+*.pyc
+*.pyo
+*.db
+.DS_Store
+.coverage
+local_settings.py
+mezzanine_heroku/staticfiles
+mezzanine_heroku/nevercache.txt
+mezzanine_heroku/secret.txt
+mezzanine_heroku/static
