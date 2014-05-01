@@ -5,8 +5,8 @@ Havilland][2] and [Josh Finnie][3]
 
 ## Deploy to Heroku
 
-    git clone https://github.com/lorin/mezzanine_heroku
-    cd mezzanine_heroku
+    git clone https://github.com/lorin/mezzanine-heroku
+    cd mezzanine-heroku
     heroku login
     heroku create
     git push heroku master
