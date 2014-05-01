@@ -12,6 +12,13 @@ Havilland][2] and [Josh Finnie][3]
     git push heroku master
     heroku run python mezzanine_heroku/manage.py createdb
 
+You will be prompted to specify admin credentials as well as asked about
+generating some default content (I answer "y" to all of these).
+
+You will also be prompted to input a site record. Specify the hostname that Heroku assigned your app (e.g. `secret-peak-9874.herokuapp.com`).
+
+
+
 
 ## Run locally
 
