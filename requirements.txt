@@ -7,13 +7,14 @@ bleach==1.4
 dj-database-url==0.3.0
 # https://github.com/kennethreitz/dj-static/issues/16
 -e git://github.com/kennethreitz/dj-static.git#egg=dj_static
--e git://github.com/sendgridlabs/loaderio-django.git#egg=loaderio
+django-loaderio==0.1
 django-toolbelt==0.0.1
 filebrowser-safe==0.3.3
 future==0.9.0
 grappelli-safe==0.3.9
 gunicorn==18.0
 html5lib==0.999
+newrelic
 oauthlib==0.6.1
 psycopg2==2.5.2
 pystache==0.5.3
