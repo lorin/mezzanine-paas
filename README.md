@@ -41,11 +41,15 @@ On subsequent runs, you can just do `gunicorn mezzanine_heroku.wsgi`.
 
 ## Issues
 
+### Thumbnails
+
+It's not currently generating thumbnails of images properly.
+
 ### Email
 
 Not currently configured for email
 
-### Static files
+### Static files can vanish
 
 This serves static files from the local filesystem. This simplifies the
 configuration, but it means we need to check some additional static files into
