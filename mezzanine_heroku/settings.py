@@ -325,6 +325,7 @@ INSTALLED_APPS = (
     "mezzanine.twitter",
     "mezzanine.accounts",
     "gunicorn",
+    "loaderio",
     #"mezzanine.mobile",
 )
 
