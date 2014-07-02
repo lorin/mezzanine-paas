@@ -1,1 +1,1 @@
-web: newrelic-admin run-program gunicorn mezzanine_heroku.wsgi
+web: gunicorn mezzanine_heroku.wsgi

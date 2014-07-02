@@ -15,7 +15,6 @@ future==0.9.0
 grappelli-safe==0.3.9
 gunicorn==18.0
 html5lib==0.999
-newrelic
 oauthlib==0.6.1
 psycopg2==2.5.2
 pystache==0.5.3
